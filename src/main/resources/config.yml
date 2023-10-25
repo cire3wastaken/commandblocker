@@ -1,0 +1,7 @@
+# make sure the command does NOT start with a slash (eg ban not /ban)
+commands-to-block:
+  - "test1"
+  - "test2"
+  - "test3"
+  - "test4"
+  - "test5"
