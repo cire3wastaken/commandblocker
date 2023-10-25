@@ -57,7 +57,6 @@ public class Main extends JavaPlugin implements Listener {
         if(!this.configFile.exists()){
             this.configuration = getConfig();
             saveDefaultConfig();
-            saveConfig();
         } else {
             this.configuration = YamlConfiguration.loadConfiguration(this.configFile);
         }
